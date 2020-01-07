@@ -4,8 +4,10 @@
 ## 生成に関するパターン
 
 ### Abstract Factory
+互いに関連したり依存し合うオブジェクト群を、その具象クラスを明確にせずに生成するためのインターフェースを提供する。
 
-最初
+Client側が具体的にElfKingなのかOrcKingなのか気にしないでも使えるように提供することで関心の分離が出来て良いよねってことみたい。
+
 see: https://github.com/iluwatar/java-design-patterns/tree/master/abstract-factory
 
 ### Builder
@@ -13,9 +15,12 @@ see: https://github.com/iluwatar/java-design-patterns/tree/master/abstract-facto
 see: https://github.com/iluwatar/java-design-patterns/tree/master/builder
 
 ### Factory Method
+オブジェクトを生成するインターフェースだけを規定して、実際にどのクラスをインスタンス化するかはサブクラスが決めるようにする。
+Factory Methodパターンは、インスタンス化をサブクラスに任せる。
 
-クラスに焦点
-最初
+サブクラスを呼んで、提供されてるオブジェクトを生成するメソッドにenumとかを渡して、実際に何クラスがインスタンス化されるかはClientは気にしない。
+ロジックとか変えたい時とか増やしたいときはサブクラスだけいじれば良いから良いのかな
+
 see: https://github.com/iluwatar/java-design-patterns/tree/master/factory-method
 
 ### Prototype
