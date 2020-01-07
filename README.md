@@ -33,10 +33,13 @@ see: https://github.com/iluwatar/java-design-patterns/tree/master/singleton
 
 ## 構造に関するパターン
 
-### Adepter
+### Adapter
+あるクラスのインターフェースを、クライアントが求める他のインターフェースへと変換する。
+Adapterパターンは、インターフェースに互換性のないクラス同士を組み合わせることができるようにする。
 
-クラスに焦点(どっちもある)
-最初
+インターフェースimplementsして関係ないクラスをフィールドで持ってインスタンス化して、
+そのインターフェースのメソッドとかの振る舞いをフィールドのクラスの振る舞いで定義しちゃう。色々使えそう。
+
 see: https://github.com/iluwatar/java-design-patterns/tree/master/adapter
 
 ### Bridge
@@ -44,8 +47,11 @@ see: https://github.com/iluwatar/java-design-patterns/tree/master/adapter
 see: https://github.com/iluwatar/java-design-patterns/tree/master/bridge
 
 ### Composite
+部分と全体階層を表現するために、オブジェクトを木構造で組み立てる。
+Compositeパターンにより、クライアントは、ここのオブジェクトとオブジェクトを合成したものを一様に扱うことができるようになる。
 
-最初
+部分と合成したものを一様に扱えるか。HTMLの構造みたいなものを表現したいときに良いみたい(ツリーの構造はあるけど、どれもtagだよねみたいな)
+
 see: https://github.com/iluwatar/java-design-patterns/tree/master/composite
 
 ### Decorator
