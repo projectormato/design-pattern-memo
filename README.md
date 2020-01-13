@@ -108,19 +108,24 @@ see: https://github.com/iluwatar/java-design-patterns/tree/master/proxy
 see: https://github.com/iluwatar/java-design-patterns/tree/master/chain
 
 ### Command
+要求をオブジェクトとしてカプセル化することによって、異なる要求や、要求からなるキューやログにより、クライアントをパラメータ化する。
+また、取り消し可能なオペレーションをサポートする。
 
 see: https://github.com/iluwatar/java-design-patterns/tree/master/command
 
 ### Interpreter
+言語に対して、文法表現と、それを使用して文を解釈するインタプリタを一緒に定義する。
 
 see: https://github.com/iluwatar/java-design-patterns/tree/master/interpreter
 
 ### Itetator
+集約オブジェクトが基にある内部表現を公開せずに、その要素に順にアクセスする方法を提供する。
 
-クラスに焦点
 see: https://github.com/iluwatar/java-design-patterns/tree/master/iterator
 
 ### Mediator
+オブジェクト群の相互作用をカプセル化するオブジェクトを定義する。Mediatorパターンは、オブジェクト同士がお互いを明示的に参照し合うことがないようにして、
+結合度を低めることを促進する。それにより、オブジェクトの相互作用を独立に考えることができるようになる。
 
 see: https://github.com/iluwatar/java-design-patterns/tree/master/mediator
 
