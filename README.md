@@ -55,8 +55,10 @@ Compositeパターンにより、クライアントは、ここのオブジェ�
 see: https://github.com/iluwatar/java-design-patterns/tree/master/composite
 
 ### Decorator
+オブジェクトに責任を動的に追加する。Decoratorパターンはサブクラス化よりも柔軟な機能拡張方法を提供する。
 
-最初
+1つの性質を2回与えることとかも容易。色々使えそう。
+
 see: https://github.com/iluwatar/java-design-patterns/tree/master/decorator
 
 ### Facade
@@ -99,8 +101,10 @@ see: https://github.com/iluwatar/java-design-patterns/tree/master/mediator
 see: https://github.com/iluwatar/java-design-patterns/tree/master/memento
 
 ### Observer
+ありオブジェクトが状態を変えたとき、それに依存する全てのオブジェクトに自動的にそのことが知らされ、また、それらが更新されるように、オブジェクト間に1:Nの依存関係を定義する。
 
-最初
+イメージが掴みきれてない、何に使えるんだろう。ブラウザのイベントリスナーとかはこれみたい、アプリケーションのクリックとかを感知してブラウザの実装に通知するみたいな。
+
 see: https://github.com/iluwatar/java-design-patterns/tree/master/observer
 
 ### State
