@@ -11,6 +11,9 @@ Client側が具体的にElfKingなのかOrcKingなのか気にしないでも使
 see: https://github.com/iluwatar/java-design-patterns/tree/master/abstract-factory
 
 ### Builder
+複合オブジェクトについて、その生成過程を表現形式に依存しないものにすることにより、同じ作成過程で異なる表現形式のオブジェクトを生成できるようにする。
+
+Builder().age(xxx).tall(yyy).build() みたいな、よく見るやつ。全部Heroのコンストラクタにつっこむよりすっきりする。
 
 see: https://github.com/iluwatar/java-design-patterns/tree/master/builder
 
@@ -24,6 +27,9 @@ Factory Methodパターンは、インスタンス化をサブクラスに任せ
 see: https://github.com/iluwatar/java-design-patterns/tree/master/factory-method
 
 ### Prototype
+生成するべきオブジェクトの種類を原型となるインスタンスを使って明確にし、それをコピーすることで新たなオブジェクトの生成を行う。
+
+ミュータブルで、共通の振る舞いも結構持っているオブジェクトをたくさん生成するときは色々頑張るよりもcopyした方が楽そう。
 
 see: https://github.com/iluwatar/java-design-patterns/tree/master/prototype
 
