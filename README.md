@@ -112,14 +112,20 @@ see: https://github.com/iluwatar/java-design-patterns/tree/master/observer
 see: https://github.com/iluwatar/java-design-patterns/tree/master/state
 
 ### Strategy
+アルゴリズムの集合を定義し、各アルゴリズムをカプセル化して、それらを交換可能にする。
+Strategyパターンを利用することで、アルゴリズムをそれを利用するクライアントからは独立して変更することができるようになる。
 
-最初
+分かりやすく便利そう。いくつか違うアルゴリズム良い感じに使わないといけない時とか。
+
 see: https://github.com/iluwatar/java-design-patterns/tree/master/strategy
 
 ### Template Method
+1つのオペレーションにアルゴリズムのスケルトンを定義しておき、その中のいくつかのステップにおいては、サブクラスでの定義に任せることにする。
+Template Methodパターンでは、アルゴリズムの構造を変えずに、アルゴリズム中のあるステップをサブクラスで定義する。
 
-クラスに焦点
-最初
+HalflingThiefでどのサブクラスを使うか切り替えられるようにするのすごく分かりやすい。
+これは結構使えそう、基本の流れは一緒だけど、参照するクラスとかテーブルとかロジックとか微妙に違うみたいなのよくありそう。
+
 see: https://github.com/iluwatar/java-design-patterns/tree/master/template-method
 
 ### Visitor
