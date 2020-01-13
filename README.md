@@ -130,17 +130,19 @@ see: https://github.com/iluwatar/java-design-patterns/tree/master/iterator
 see: https://github.com/iluwatar/java-design-patterns/tree/master/mediator
 
 ### Memento
+カプセル化を破壊せずに、オブジェクトの内部状態を捉えて外面化しておき、オブジェクトを後にこの状態に戻すことができるようにする。
 
 see: https://github.com/iluwatar/java-design-patterns/tree/master/memento
 
 ### Observer
-ありオブジェクトが状態を変えたとき、それに依存する全てのオブジェクトに自動的にそのことが知らされ、また、それらが更新されるように、オブジェクト間に1:Nの依存関係を定義する。
+あるオブジェクトが状態を変えたとき、それに依存する全てのオブジェクトに自動的にそのことが知らされ、また、それらが更新されるように、オブジェクト間に1:Nの依存関係を定義する。
 
 イメージが掴みきれてない、何に使えるんだろう。ブラウザのイベントリスナーとかはこれみたい、アプリケーションのクリックとかを感知してブラウザの実装に通知するみたいな。
 
 see: https://github.com/iluwatar/java-design-patterns/tree/master/observer
 
 ### State
+オブジェクトの内部状態が変化したときにオブジェクトが振る舞いを変えるようにする。クラス内では振る舞いの変化を記述せず、状態を表すオブジェクトを導入することでこれを実現する。
 
 see: https://github.com/iluwatar/java-design-patterns/tree/master/state
 
@@ -162,5 +164,7 @@ HalflingThiefでどのサブクラスを使うか切り替えられるように�
 see: https://github.com/iluwatar/java-design-patterns/tree/master/template-method
 
 ### Visitor
+あるオブジェクトの構造上の要素で実行されるオペレーションを表現する。
+Visitorパターンにより、オペレーションを加えるオブジェクトのクラスに変更を加えずに、新しいオペレーションを定義することができるようになる。
 
 see: https://github.com/iluwatar/java-design-patterns/tree/master/visitor
