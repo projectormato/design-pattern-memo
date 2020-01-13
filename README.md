@@ -91,12 +91,19 @@ see: https://github.com/iluwatar/java-design-patterns/tree/master/facade
 see: https://github.com/iluwatar/java-design-patterns/tree/master/flyweight
 
 ### Proxy
+あるオブジェクトへのアクセスを制御するために、そのオブジェクトの代理、または入れ物を提供する。
+
+そのままな感じ。オブジェクトへのアクセスを制御するのは、コストの高い処理をなるべく行わないようにするため。
 
 see: https://github.com/iluwatar/java-design-patterns/tree/master/proxy
 
 ## 振る舞いに関するパターン
 
 ### Chain of Responsibility
+1つ以上のオブジェクトに要求を処理する機会を与えることにより、要求を送信するオブジェクトと受信するオブジェクトの結合を避ける。
+受信する複数のオブジェクトをチェーン状に繋ぎ、あるオブジェクトがその要求を処理するまで、チェーンに沿って要求を渡していく。
+
+直接的な結合を避けられるので良さそう。
 
 see: https://github.com/iluwatar/java-design-patterns/tree/master/chain
 
