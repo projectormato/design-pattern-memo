@@ -76,10 +76,17 @@ see: https://github.com/iluwatar/java-design-patterns/tree/master/composite
 see: https://github.com/iluwatar/java-design-patterns/tree/master/decorator
 
 ### Facade
+サブシステム内に存在する複数のインターフェースに1つの統一インターフェースを与える。
+Facadeパターンはサブシステムの利用を容易にするための高レベルインターフェースを定義する。
+
+関心の分離ができるので良さそう、単純だし、色々使えそう。
 
 see: https://github.com/iluwatar/java-design-patterns/tree/master/facade
 
 ### Flyweight
+多数の細かいオブジェクトを効率よくサポートするために共有を利用する。
+
+等価なオブジェクトを何度も使うなら、その度生成するんじゃなくて共有しておきましょう。ということみたい。
 
 see: https://github.com/iluwatar/java-design-patterns/tree/master/flyweight
 
